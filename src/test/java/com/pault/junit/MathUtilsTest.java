@@ -14,10 +14,20 @@ import static org.junit.jupiter.api.Assertions.*;
 class MathUtilsTest {
 
     MathUtils mathUtils;
+    TestInfo testInfo;
+    TestReporter testReporter;
 
     @BeforeEach
-    void setUp() {
+    void setUp(TestInfo testInfo, TestReporter testReporter) {
+
+        this.testInfo = testInfo;
+        this.testReporter = testReporter;
+
         mathUtils = new MathUtils();
+
+        // Test Reporter - writes to the actual Junit logging
+        testReporter.publishEntry("Running=======> "+testInfo.getTestClass() + " " + testInfo.getDisplayName());
+
     }
 
     @AfterEach
@@ -32,11 +42,15 @@ class MathUtilsTest {
 
     }
     @Test
+    @DisplayName("Plain Add")
     void add() {
+        // Use TestInfo and TestReporter
+        log.info("Running "+testInfo.getTestClass() + " with name of "+testInfo.getDisplayName());
         int expected = 2;
         int actual = mathUtils.add(1, 1);
         assertEquals(expected, actual);
     }
+
 
     @Test
     void addAgain() {
@@ -81,6 +95,21 @@ class MathUtilsTest {
         actual.add("Caitlin");
         actual.add("Rory");
         assertIterableEquals(expected, actual);
+
+    }
+
+    @Test
+    @DisplayName("Run Multiples")
+    void runMultiplesOfMultiply() {
+        // Test Reporter - writes to the actual Junit logging
+        testReporter.publishEntry("Running=======> "+testInfo.getTestClass());
+        assertAll(
+                () -> assertEquals(10, mathUtils.multiply(5, 2)),
+                () -> assertEquals(20, mathUtils.multiply(5, 4)),
+                () -> assertEquals(1000, mathUtils.multiply(10, 100)),
+                () -> assertEquals(98, mathUtils.multiply(14, 7))
+        );
+
 
     }
 

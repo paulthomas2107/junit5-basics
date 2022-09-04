@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc20a436-346b-472e-9407-5eb230695743" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pault/junit/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pault/junit/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pault/junit/MathUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pault/junit/StringUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pault/junit/TestSuite.java" afterDir="false" />
+    <list default="true" id="fc20a436-346b-472e-9407-5eb230695743" name="Changes" comment="More....">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pault/junit/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pault/junit/MathUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,38 @@
       <recent name="com.pault.junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MathUtilsTest">
+  <component name="RunManager" selected="Maven.junit5-basics [test]">
+    <configuration name="MathUtilsTest$AddingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pault.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pault.junit.MathUtilsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.pault.junit.MathUtilsTest$AddingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest$AddingTest.addFromInner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pault.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pault.junit.MathUtilsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.pault.junit.MathUtilsTest$AddingTest" />
+      <option name="METHOD_NAME" value="addFromInner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="junit5-basics" />
       <extension name="coverage">
@@ -76,6 +102,38 @@
       <option name="MAIN_CLASS_NAME" value="com.pault.junit.MathUtilsTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.multipleWithMessageLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pault.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pault.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.pault.junit.MathUtilsTest" />
+      <option name="METHOD_NAME" value="multipleWithMessageLambda" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.testComputeCircleRadius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pault.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pault.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.pault.junit.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testComputeCircleRadius" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,29 +154,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5-basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pault.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pault.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.pault.junit.TestSuite" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="junit5-basics [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="JUnit.MathUtilsTest" />
       <item itemvalue="JUnit.StringUtilsTest" />
-      <item itemvalue="JUnit.TestSuite" />
+      <item itemvalue="JUnit.MathUtilsTest$AddingTest" />
+      <item itemvalue="JUnit.MathUtilsTest$AddingTest.addFromInner" />
+      <item itemvalue="JUnit.MathUtilsTest.multipleWithMessageLambda" />
+      <item itemvalue="JUnit.MathUtilsTest.testComputeCircleRadius" />
+      <item itemvalue="Maven.junit5-basics [test]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="Maven.junit5-basics [test]" />
+        <item itemvalue="JUnit.MathUtilsTest$AddingTest" />
+        <item itemvalue="JUnit.MathUtilsTest$AddingTest.addFromInner" />
+        <item itemvalue="JUnit.MathUtilsTest.testComputeCircleRadius" />
+        <item itemvalue="JUnit.MathUtilsTest.multipleWithMessageLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662294604993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="More....">
+      <created>1662302020923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662302020923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +237,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="More...." />
+    <option name="LAST_COMMIT_MESSAGE" value="More...." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junit5_basics$MathUtilsTest.ic" NAME="MathUtilsTest Coverage Results" MODIFIED="1662306424920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.pault.junit.*</FILTER>
+    </SUITE>
   </component>
 </project>
